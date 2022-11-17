@@ -1,4 +1,5 @@
-public class shaiexam16.11 {
+import java.util.Scanner;
+public class project1 {
     public static void main(String []args){
         final int ARRAY_SIZE=5;
         int [] array=new int[ARRAY_SIZE];
@@ -13,15 +14,15 @@ public class shaiexam16.11 {
         printarray(array);
         anoudernumberinarray(array,Anoudernumber);
     }
-    public static void printarray(int array){
+    public static void printarray(int[] array){
         System.out.println ("the array is "+ array);
     }
-    public static void anoudernumberinarray(int array,  int Anoudernumber){
-        for(i=0; i< array.length; i++){
+    public static void anoudernumberinarray(int[] array,  int Anoudernumber){
+        for(int i=0; i< array.length; i++){
             if(array[i]==Anoudernumber){
-                System.out.println("The Anouder Number is in array")}
+                System.out.println("The Anouder Number is in array");}
             else{
-                System.out.println("The Anouder Number is not in array")}
+                System.out.println("The Anouder Number is not in array");}
             }
         }
     }
